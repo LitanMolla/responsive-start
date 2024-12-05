@@ -33,11 +33,11 @@ Email: contact@litanmolla.com */
 
 /* Header Part Start */
 .navbar{
-    padding: 30px 0;
-    position: fixed;
+    padding: 20px 0;
     top: 0;
     left: 0;
     width: 100%;
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .headerMenu ul li{
