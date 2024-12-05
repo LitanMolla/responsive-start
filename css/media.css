@@ -1,0 +1,402 @@
+/* Extra large devices  */
+@media (min-width: 1200px) {  }
+
+/* Large devices  */
+@media (min-width: 992px) and (max-width: 1199.98px) {  }
+
+/* Medium devices  */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .navbar-toggler{
+        font-size: 30px;
+        color: #fff;
+    }
+
+    .navbar-nav {
+        list-style: none;
+        background: #6A4DF4;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .headerContact a {
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-item a:hover{
+        color: #9e9e9e;
+    }
+
+    .bannerText h1 {
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 120%;
+        color: #fff;
+    }
+
+    .bgoverly {
+        background: rgba(0, 0, 0, 0.62);
+        padding-top: 129px;
+        padding-bottom: 121px;
+    }
+
+    #counter {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #recent {
+        background: #F3F3F3;
+        padding: 50px 0;
+    }
+
+    .recentHeader p {
+        margin-bottom: 50px;
+    }
+
+    .recentItem {
+        margin: 10px 0;
+    }
+
+    #agency {
+        margin: 50px;
+    }
+
+    .agencyItem{
+        text-align: center;
+        margin: 30px 0;
+    }
+
+    .agencyItem p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #737373;
+        padding-right: 0;
+    }
+
+    .mrbi{
+        margin: 0;
+    }
+
+    .reveiwHeader {
+        margin-bottom: 50px;
+    }
+
+    #review {
+        margin-bottom: 50px;
+    }
+
+    #form {
+        padding: 50px 0;
+    }
+
+    .fleft{
+        text-align: center;
+    }
+
+    .footerLogo{
+        text-align: center;
+    }
+
+    .footerPart {
+        margin-top: 30px;
+    }
+
+    #footer {
+        margin-top: 50px;
+    }
+
+ }
+
+/* Small devices  */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .navbar-toggler{
+        font-size: 30px;
+        color: #fff;
+    }
+
+    .navbar-nav {
+        list-style: none;
+        background: #6A4DF4;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .headerContact a {
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-item a:hover{
+        color: #9e9e9e;
+    }
+
+    .bannerText h1 {
+        font-size: 43px;
+        font-weight: 700;
+        line-height: 120%;
+        color: #fff;
+    }
+
+    .bgoverly {
+        padding-top: 110px;
+        padding left: 80px;
+    }
+
+    #counter {
+        margin: 50px 0;
+    }
+    .counterPart {
+        text-align: center;
+    }
+
+    .counterleft h1 {
+        font-size: 38px;
+    }
+
+    .counterRight {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .counterItem{
+        margin: 10px 0;
+    }
+
+    .serviceHeader p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #737373;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    #recent {
+        background: #F3F3F3;
+        padding: 50px 0;
+    }
+
+    .recentHeader p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #737373;
+        margin-bottom: 50px;
+    }
+
+    #agency {
+        margin: 50px 0;
+    }
+
+    .agencyItem{
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    .agencyItem p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: #737373;
+        padding: 0 10px;
+    }
+
+    .mrbi{
+        margin: 0;
+    }
+
+    #review {
+        margin-bottom: 50px;
+    }
+
+    .reveiwHeader {
+        margin-bottom: 50px;
+    }
+
+    #form {
+        padding: 50px 0;
+    }
+
+    .fleft{
+        text-align: center;
+    }
+
+    .fleft h1 {
+        font-size: 45px;
+        font-weight: 700;
+        line-height: normal;
+        color: #151515;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .formRightPart{
+        margin-top: 30px;
+    }
+
+    .footerLogo{
+        text-align: center;
+    }
+
+    .footerLogo p {
+        font-size: 16px;
+        line-height: 26px;
+        color: #7B7B7B;
+        margin-top: 30px;
+        margin-right: 0;
+    }
+
+    .footerPart {
+        margin-top: 30px;
+    }
+ }
+
+
+
+
+
+/* Extra small devices  */
+@media (max-width: 575.98px) { 
+    .navbar-toggler{
+        font-size: 30px;
+        color: #fff;
+    }
+
+    .navbar-nav {
+        list-style: none;
+        background: #6A4DF4;
+        border-radius: 10px;
+        text-align: center;
+    }
+
+    .headerContact a {
+        margin-top: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-item a:hover{
+        color: #9e9e9e;
+    }
+
+    .bannerText h1 {
+        font-size: 38px;
+    }
+
+    .bannerText p {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+
+    .bgoverly {
+        padding-top: 115px;
+        padding-bottom: 70px;
+    }
+
+    #counter {
+        margin: 20px 0;
+    }
+
+    .counterleft {
+        text-align: center;
+    }
+
+    .counterRight  {
+        text-align: center;
+        display: block;
+        flex-direction: column;
+    }
+
+    .counterItem{
+        margin: 10px 0;
+    }
+
+    .serviceHeader p {
+        font-style: 15px;
+        margin: 0;
+    }
+
+    #recent {
+        padding: 50px 0;
+    }
+
+    .recentHeader p {
+        font-size: 16px;
+        margin-bottom: 50px;
+    }
+
+    #agency {
+        margin: 50px;
+    }
+
+    .agencyHeader p {
+        font-size: 16px;
+        margin-bottom: 50px;
+        margin-top: 20px;
+        padding: 0;
+    }
+
+    .agencyItem{
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .agencyItem p {
+        font-size: 16px;
+        padding: 0;
+    }
+
+    .mrbi{
+        margin: 0;
+    }
+
+    .reveiwHeader {
+        margin-bottom: 20px;
+    }
+
+    #review {
+        margin-bottom: 50px;
+    }
+
+    #form {
+        padding: 50px 0;
+    }
+
+    .fleft{
+        text-align: center;
+    }
+
+    .fleft h1 {
+        font-size: 35px;
+        margin-right: 0px;
+        margin-bottom: 20px;
+    }
+
+    .footerLogo{
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .footerLogo p {
+        font-size: 16px;
+        line-height: 26px;
+        color: #7B7B7B;
+        margin-top: 30px;
+        margin-right: 0;
+    }
+
+    .footerItem h4 {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .footerItem ul li a {
+        font-size: 12px;
+        line-height: 20px;
+    }
+ }

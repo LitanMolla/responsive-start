@@ -1,0 +1,632 @@
+/* All Commom CSS Start */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+a,a:hover{
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+ol,ul{
+    list-style-type: none;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+/* All Commom CSS End */
+
+/* Coded by LITAN MOLLA
+Contact: 
+Fb: https://www.facebook.com/LITANMOLLA09
+Email: contact@litanmolla.com */
+
+
+/* Header Part Start */
+.navbar{
+    padding: 30px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.headerMenu ul li{
+    display: inline-block;
+    margin: 0 33px;
+}
+
+.nav-link:hover{
+    color: #6A4DF4;
+}
+
+.nav-item{
+    margin: 0 25px;
+}
+
+.nav-link{
+    color: #fff;
+    font-size: 18px;
+    line-height: 26px;
+    transition: .5s;
+}
+
+.headerContact a{
+    color: #fff;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+    background: #6A4DF4;
+    border-radius: 10px;
+    padding: 15px 42px;
+}
+/* Header Part End */
+
+
+
+/* Banner Part Start */
+#bannerbg{
+    background: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgoverly{
+    background: rgba(0, 0, 0, 0.62);
+    padding-top: 315px;
+    padding-bottom: 175px;
+}
+
+.bannerBTN{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #fff;
+    background: #6A4DF4;
+    border-radius: 10px;
+    padding: 15px 42px;
+    margin-top: 40px;
+}
+
+.bannerText h1{
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #fff;
+}
+
+.bannerText p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+    margin-top: 50px;
+}
+/* Banner Part End */
+
+
+
+/* Counter Part Start */
+#counter{
+    margin-top: 170px;
+    margin-bottom: 150px;
+}
+
+.counterPart{
+    background: #E0FFF9;
+    border-radius: 20px;
+    padding: 88px 37px 83px 50px;
+}
+
+.counterleft h5{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 120%;
+    color: #6A4DF4;
+}
+
+.counterleft h1{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: normal;
+    color: #151515;
+}
+
+.counterItem h1{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: normal;
+    color: #151515;
+}
+
+.counterItem p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    color: #737373;
+}
+/* Counter Part End */
+
+
+
+/* Service Part Start */
+.serviceItem{
+    margin: 10px 0;
+}
+
+.serviceHeader h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+    color: #151515;
+}
+.serviceHeader p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #737373;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.serviceItem{
+    padding: 50px;
+    border-radius: 20px;
+    transition: .5s;
+}
+
+.serviceItem:hover{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.sIP{
+    margin-bottom: 103px;
+}
+
+.serviceItem img{
+    margin-top: 30px;
+}
+
+.serviceItem h2{
+    font-size: 25px;
+    font-weight: 700;
+    color: #151515;
+    line-height: normal;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.serviceItem p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #737373;
+}
+/* Service Part End */
+
+
+
+/* Recent Part Start */
+#recent{
+    background: #F3F3F3;
+    padding: 150px 0;
+}
+
+.recentHeader h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+    color: #151515;
+    margin-bottom: 20px;
+}
+
+.recentHeader p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #737373;
+    margin-bottom: 106px;
+}
+
+.recentItem{
+    background: #fff;
+    border-radius: 20px;
+}
+
+.recentItem img{
+    width: 100%;
+}
+
+.recentItem h3{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    color: #151515;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.recentItem p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #737373;
+    padding-bottom: 30px;
+    margin: 0 40px;
+}
+/* Recent Part End */
+
+
+
+/* agency Part Start */
+#agency{
+    margin-top: 150px;
+    margin-bottom: 105px;
+}
+
+.agencyTeam img{
+    width: 100%;
+}
+
+.agencyHeader h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+    color: #151515;
+}
+
+.agencyHeader p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #737373;
+    margin-bottom: 130px;
+    margin-top: 20px;
+    padding: 0 25px;
+}
+
+.agencyItem h4{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: normal;
+    color: #151515;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.agencyItem p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #737373;
+    padding-right: 85px;
+}
+
+.mrbi{
+    margin-bottom: 88px;
+}
+/* agency Part End */
+
+
+
+/* Review Part Start */
+#review{
+    margin-bottom: 230px;
+}
+
+.reveiwHeader{
+    margin-bottom: 130px;
+}
+
+.reveiwHeader h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+    color: #151515;
+}
+
+.reveiwHeader p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #737373;
+    margin-top: 20px;
+}
+
+.reviewItem .qutue{
+    font-size: 60px;
+    color: #6A4DF4;
+    opacity: 40%;
+    transition: .5s;
+}
+
+.reviewItem p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+}
+
+.star{
+    color: #F9BD2C;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.profile{
+    gap: 20px;
+}
+
+.ptxt h6{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 120%;
+    color: #232323;
+}
+
+.ptxt p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+}
+
+.reviewItem:hover{
+    background: #F4EFEF;
+}
+
+.reviewItem:hover .qutue{
+    opacity: 20%;
+}
+
+.reviewItem{
+    padding: 54px 50px;
+    border-radius: 30px;
+   transition: .5s;
+}
+/* Review Part End */
+
+
+
+/* Form Part Start */
+#form{
+    background: #F3F3F3;
+    padding-top: 170px;
+    padding-bottom: 130px;
+}
+
+.fleft h1{
+    font-size: 45px;
+    font-weight: 700;
+    line-height: normal;
+    color: #151515;
+    margin-right: 130px;
+    margin-bottom: 20px;
+}
+
+.fleft p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.fromRight h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #151515;
+    margin-bottom: 30px;
+}
+
+.formRightPart{
+    background: #fff;
+    padding: 38px 43px 84px 43px;
+    border-radius: 20px;
+}
+
+.formRightPart input{
+    padding: 15px;
+}
+
+.formRightPart button{
+    width: 100%;
+    background: #6A4DF4;
+    padding: 15px;
+    transition: .5s;
+}
+
+.formRightPart button:hover{
+    width: 100%;
+    background: #785ef8;
+    padding: 15px;
+}
+/* Form Part End */
+
+
+
+/* Footer Part Start */
+#footer{
+    margin-top: 146px;
+}
+
+.footerLogo p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #7B7B7B;
+    margin-top: 30px;
+    margin-right: 65px;
+}
+
+.footerItem ul{
+    padding: 0;
+}
+
+.footerItem h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    color: #151515;
+    margin-bottom: 40px;
+}
+
+
+.footerItem ul li a:hover{
+    color: #6A4DF4;
+}
+
+.footerItem ul li a{
+    font-size: 16px;
+    line-height: 40px;
+    color: #7B7B7B;
+    transition: .5s;
+}
+
+footer{
+    color: #7B7B7B;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+/* Footer Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+/* Section Part Start */
+/* Section Part End */
+
+
+
+
