@@ -23,6 +23,10 @@ h1,h2,h3,h4,h5,h6,p{
     padding: 0;
     line-height: 0.8;
 }
+
+body{
+    scroll-behavior: smooth;
+}
 /* All Commom CSS End */
 
 /* Coded by LITAN MOLLA
@@ -34,12 +38,25 @@ Email: contact@litanmolla.com */
 /* Header Part Start */
 .navbar{
     padding: 20px 0;
-    position: sticky;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.5);
 }
+
+.stickyHeader{
+    background: #232323;
+    animation: headeranimation 1s;
+}
+
+@keyframes headeranimation{
+    from{
+    top: -100px;
+    }
+    to{
+    top: 0;
+    }
+    }
 
 .headerMenu ul li{
     display: inline-block;
@@ -495,6 +512,15 @@ footer{
     color: #7B7B7B;
     padding-bottom: 50px;
     padding-top: 30px;
+}
+
+.back-to-top a{
+    width: 100%;
+    border: 1px solid gray;
+    text-align: center;
+    color: gray;
+    padding: 5px 0;
+    text-transform: uppercase;
 }
 /* Footer Part End */
 
